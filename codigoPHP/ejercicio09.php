@@ -5,12 +5,12 @@ Ultima edición: 18/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 00</title>
+        <title>Ejercicio 09</title>
     </head>
     <body>
         <?php
-            echo "Hola mundo";
-            phpinfo();
+            echo $_SERVER['SCRIPT_NAME'];
         ?>
     </body>
 </html>
+

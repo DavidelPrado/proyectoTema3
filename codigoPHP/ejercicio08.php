@@ -5,12 +5,12 @@ Ultima edición: 18/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 00</title>
+        <title>Ejercicio 08</title>
     </head>
     <body>
         <?php
-            echo "Hola mundo";
-            phpinfo();
+            echo "IP del servidor: ".$_SERVER['SERVER_ADDR'];
         ?>
     </body>
 </html>
+
