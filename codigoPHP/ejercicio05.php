@@ -9,9 +9,8 @@ Ultima edición: 18/10/2021-->
     </head>
     <body>
         <?php
-            $timestamp=time();
-
-            echo "Marca de tiempo: ".$timestamp;
+            $cFecha=new dateTime();
+            echo "Marca de tiempo: ".$cFecha->getTimestamp();
         ?>
     </body>
 </html>

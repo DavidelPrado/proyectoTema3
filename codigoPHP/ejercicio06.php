@@ -9,14 +9,18 @@ Ultima edición: 18/10/2021-->
     </head>
     <body>
         <?php
+            echo 'Suma con date: <br>';
             $fecha=date("d-m-Y");
             $fecha60=date("d-m-Y",strtotime($fecha."+ 60 days"));
             
-            $dia60=date("w",strtotime($fecha."+ 60 days"));
-            
             echo "Fecha en 60 dias: ".$fecha60;
-            echo '<br>';
-            echo "Dia de la semana: ".$dia60;
+            
+            echo '<br><br>';
+            
+            echo 'Suma con dateTime: <br>';
+            $cFecha=new dateTime();
+            date_add($cFecha, new DateInterval("P60D"));
+            echo 'Fecha en 60 dias: '.$cFecha->format("d-m-Y");
         ?>
     </body>
 </html>
