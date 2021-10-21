@@ -68,13 +68,13 @@
             </tr>
             <tr>
                 <td>Ejercicio 11-Mostrar el documento PHPDoc del proyecto que se está ejecutando generado con PHP Documentor o ApiGen</td>
-                <td><a href="codigoPHP/ejercicio11.php">Ejecutar</a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio11.php">Mostrar</a></td>
+                <td><a>Ejecutar</a></td>
+                <td><a>Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 12-Mostrar el contenido de las variables superglobales</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio12.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio12.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 13-Crear una función que cuente el número de visitas a la página actual desde una fecha concreta</td>
@@ -83,13 +83,13 @@
             </tr>
             <tr>
                 <td>Ejercicio 14-Comprobar las librerías que estás utilizando en tu entorno de desarrollo y explotación. Crear tu propia librería de funciones y estudiar la forma de usarla en el entorno de desarrollo y en el de explotación</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio14.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio14.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 15-Crear e inicializar un array con el sueldo percibido de lunes a domingo. Recorrer el array para calcular el sueldo percibido durante la semana</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio15.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio15.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 16-Recorrer el array anterior utilizando funciones para obtener el mismo resultado</td>
