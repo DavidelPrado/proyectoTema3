@@ -22,7 +22,7 @@ Ultima edición: 20/10/2021-->
             
             echo '<h4>Variable $_SESSION: </h4>';
             echo '<pre>';
-            print_r($_SESSION);
+            
             echo '</pre>';
             
             echo '<h4>Variable $_FILES: </h4>';
