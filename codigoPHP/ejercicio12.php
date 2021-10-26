@@ -43,6 +43,50 @@ Ultima edición: 20/10/2021-->
             echo '<br><h3>Contenido de las variables superglobales con foreach: <h3>';
             echo '<h4>Variable $GLOBALS: </h4>';
             
+            
+            echo '<h4>Variable $_SERVER: </h4>';
+            echo '<table>';
+            foreach ($_SERVER as $key => $value) {
+                echo '<tr>';
+                echo "<td>$key</td>";
+                echo "<td>$value</td>";
+                echo '</tr>';
+            }
+            echo '</table>';
+            
+            echo '<h4>Variable $_SESSION: </h4>';
+            
+            
+            
+            echo '<h4>Variable $_FILES: </h4>';
+            echo '<table>';
+            foreach ($_FILES as $key => $value) {
+                echo '<tr>';
+                echo "<td>$key</td>";
+                echo "<td>$value</td>";
+                echo '</tr>';
+            }
+            echo '</table>';
+             
+            echo '<h4>Variable $_ENV: </h4>';
+            echo '<table>';
+            foreach ($_ENV as $key => $value) {
+                echo '<tr>';
+                echo "<td>$key</td>";
+                echo "<td>$value</td>";
+                echo '</tr>';
+            }
+            echo '</table>';
+             
+            echo '<h4>Variable $_REQUEST: </h4>';
+            echo '<table>';
+            foreach ($_REQUEST as $key => $value) {
+                echo '<tr>';
+                echo "<td>$key</td>";
+                echo "<td>$value</td>";
+                echo '</tr>';
+            }
+            echo '</table>';
         ?>
     </body>
 </html>
