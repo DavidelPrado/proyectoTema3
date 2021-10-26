@@ -118,18 +118,18 @@
             </tr>
             <tr>
                 <td>Ejercicio 21-Construir un formulario para recoger un cuestionario realizado a una persona y enviarlo a una página Tratamiento.php para que muestre las preguntas y las respuestas recogidas</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio21.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio21.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 22-Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio22.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio22.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 23-Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio23.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio23.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 24-Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la  misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas</td>
