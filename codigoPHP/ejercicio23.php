@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--David del Prado Losada
 Creación: 25/10/2021
-Ultima edición: 25/10/2021-->
+Ultima edición: 26/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -13,10 +13,6 @@ Ultima edición: 25/10/2021-->
             $entradaOK=true; //Inicialización de la variable que nos indica que todo va bien
             
             //Inicialización del array donde recogemos los errores
-            $errores=[
-                "nombre"=>null,
-                "edad"=>null
-            ];
         
             
             if(isset($_REQUEST['enviar'])){
@@ -62,21 +58,32 @@ Ultima edición: 25/10/2021-->
                 print_r($_GET);
                 echo '</pre>';
             }else{
+        ?>  
                 
-                echo "
-                    <form name='cuestionario' method='post'>
-                        <fieldset>
-                        <legend>Cuestionario:</legend>
-                        <p>Nombre:</p>
-                        <input type='text' name='nombre'>
+            <form action="<?php $_SERVER['PHP_SELF'] ?>" method='post'>
+                <fieldset>
+                <legend>Cuestionario:</legend>
+                <p>Nombre:</p>
+                <input type='text' name='nombre'>
+                    <?php 
+                    if(isset($_REQUEST["nombre"]) && empty($_REQUEST["nombre"])){
+                        echo "<p style='color:red'>Campo vacio</p>";
+                    }
+                    ?>
 
-                        <p>Edad:</p>
-                        <input type='number' name='edad'>
-                        <br><br>
-                        <input type='submit' name='enviar' value='Enviar'/>
-                        </fieldset>
-                    </form>
-                ";
+                <p>Edad:</p>
+                <input type='number' name='edad'>
+                
+                <?php 
+                    if(isset($_REQUEST["edad"]) && empty($_REQUEST["edad"])){
+                        echo "<p style='color:red'>Campo vacio</p>";
+                    }
+                    ?>
+                <br><br>
+                <input type='submit' name='enviar' value='Enviar'/>
+                </fieldset>
+            </form>
+        <?php    
             } 
         ?>
     </body>
