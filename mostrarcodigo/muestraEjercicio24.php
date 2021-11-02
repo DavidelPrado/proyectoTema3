@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Muestra ejercicio 22</title>
+        <title>Muestra ejercicio 24</title>
     </head>
     <body>
         <?php
-            highlight_file("../codigoPHP/ejercicio22.php");
+            highlight_file("../codigoPHP/ejercicio24.php");
         ?>
     </body>
 </html>

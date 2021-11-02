@@ -98,8 +98,8 @@
             </tr>
             <tr>
                 <td>Ejercicio 17-Inicializar un array (bidimensional con dos índices numéricos) donde almacenamos el nombre de las personas que tienen reservado el asiento en un teatro de 20 filas y 15 asientos por fila. (Inicializamos el array ocupando únicamente 5 asientos). Recorrer el array con distintas técnicas (foreach(), while(), for()) para mostrar los asientos ocupados en cada fila y las personas que lo ocupan</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio17.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio17.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 18-Recorrer el array anterior utilizando funciones para obtener el mismo resultado</td>
@@ -114,7 +114,7 @@
             <tr>
                 <td>Ejercicio 20-Convertir la LibreriaValidacionFormularios.php en una clase ValidacionFormularios.php. El profesor facilitará a los alumnos la clase AAMMDDValidacionFormularios.php desarrollada en el curso anterior como punto de partida</td>
                 <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio20.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 21-Construir un formulario para recoger un cuestionario realizado a una persona y enviarlo a una página Tratamiento.php para que muestre las preguntas y las respuestas recogidas</td>
@@ -133,8 +133,8 @@
             </tr>
             <tr>
                 <td>Ejercicio 24-Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la  misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas</td>
-                <td><a>Ejecutar</a></td>
-                <td><a>Mostrar</a></td>
+                <td><a href="codigoPHP/ejercicio24.php">Ejecutar</a></td>
+                <td><a href="mostrarcodigo/muestraEjercicio24.php">Mostrar</a></td>
             </tr>
             <tr>
                 <td>Ejercicio 25-Trabajar en PlantillaFormulario.php mi plantilla para hacer formularios como churros</td>

@@ -10,10 +10,9 @@ Ultima edición: 26/10/2021-->
     <body>
         
         <?php
-            $entradaOK=true; //Inicialización de la variable que nos indica que todo va bien
+            //Inicializar variable que controlara si los campos estan correctos
+            $entradaOK=true;
             
-            //Inicialización del array donde recogemos los errores
-        
             
             if(isset($_REQUEST['enviar'])){
                 //Comprobación de que nombre no esta vacio
@@ -36,16 +35,19 @@ Ultima edición: 26/10/2021-->
                 $nombre=$_REQUEST["nombre"];
                 $edad=$_REQUEST["edad"];
 
+                //Mostrar respuestas correctas de cada campo
                 echo 'Nombre: '.$nombre."<br>";
                 echo 'Edad: '.$edad."<br>";
 
+                //Mostrar contenido en $_REQUEST
                 echo 'Contenido en $_REQUEST:';
                 echo '<pre>';
                 print_r($_REQUEST);
                 echo '</pre>';
                 
                 echo '<br>';
-            
+                
+                //Mostrar contenido en $_POST
                 echo 'Contenido en $_POST:';
                 echo '<pre>';
                 print_r($_POST);
@@ -53,11 +55,13 @@ Ultima edición: 26/10/2021-->
 
                 echo '<br>';
 
+                //Mostrar contenido en $_GET
                 echo 'Contenido en $_GET:';
                 echo '<pre>';
                 print_r($_GET);
                 echo '</pre>';
             }else{
+                //Mostrar el fomulario
         ?>  
                 
             <form action="<?php $_SERVER['PHP_SELF'] ?>" method='post'>
