@@ -34,6 +34,7 @@ Ultima edición: 28/10/2021-->
         </style>
     </head>
     <body>
+        
         <?php
             //Incluir la libreria de validación de formularios
             include '../core/210322ValidacionFormularios.php';
