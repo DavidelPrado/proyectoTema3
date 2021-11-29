@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 21/10/2021
-Ultima edición: 21/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Tratamiento ejercicio 21</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 21/10/2021
+             * Ejercicio 21.Tratamiento
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 21</h1>';
+            
             $nombre=$_REQUEST["nombre"];
             $edad=$_REQUEST["edad"];
             

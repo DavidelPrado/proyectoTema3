@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 18/10/2021
-Ultima edición: 18/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Ejercicio 04</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 18/10/2021
+             * Ejercicio 4.Mostrar en tu página index la fecha y hora actual en Oporto formateada en portugués
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 4</h1>';
+            
             //Cambiar zona horaria a Madrid para date
             date_default_timezone_set('Europe/Madrid');
             echo "Fecha y hora actual en Madrid con date: <br>".date('d-m-Y H:i:s');

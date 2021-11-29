@@ -1,15 +1,29 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 25/10/2021
-Ultima edición: 26/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Ejercicio 23</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 25/10/2021
+             * Ejercicio 23.Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 23</h1>';
+
             //Inicializar variable que controlara si los campos estan correctos
             $entradaOK=true;
             

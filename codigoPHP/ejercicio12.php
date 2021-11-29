@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 20/10/2021
-Ultima edición: 20/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Ejercicio 012</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 20/10/2021
+             * Ejercicio 12.Mostrar el contenido de las variables superglobales
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 12</h1>';
+            
             echo '<h3>Contenido de las variables superglobales con print_r: <h3>';
             echo '<h4>Variable $GLOBALS: </h4>';
             echo '<pre>';

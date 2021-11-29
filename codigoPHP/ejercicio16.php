@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 21/10/2021
-Ultima edición: 25/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Ejercicio 16</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 21/10/2021
+             * Ejercicio 16.Recorrer el array anterior utilizando funciones para obtener el mismo resultado
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 16</h1>';
+
             //Inicializar variable que almacenara los sueldos de cada dia
             $sueldo=0;
             

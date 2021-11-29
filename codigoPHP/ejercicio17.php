@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 26/10/2021
-Ultima edición: 26/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Ejercicio 17</title>
+        <style>
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 26/10/2021
+             * Ejercicio 17.Inicializar un array (bidimensional con dos índices numéricos) donde almacenamos el nombre de las personas que tienen reservado el asiento en un teatro de 20 filas y 15 asientos por fila. (Inicializamos el array ocupando únicamente 5 asientos). Recorrer el array con distintas técnicas (foreach(), while(), for()) para mostrar los asientos ocupados en cada fila y las personas que lo ocupan
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 17</h1>';
+
             //inicializar array
             for($fila=1; $fila<20; $fila++){
                 for($columna=1; $columna<15; $columna++){

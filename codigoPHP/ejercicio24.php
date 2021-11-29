@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!--David del Prado Losada
-Creación: 25/10/2021
-Ultima edición: 28/10/2021-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -31,11 +28,27 @@ Ultima edición: 28/10/2021-->
             p{
                 color: red;
             }
+        
+            a{
+                text-decoration: none;
+                color: grey;
+            }
+            h1{
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        
         <?php
+            /*
+             * @author: David del Prado Losada
+             * @version: v1.Realizacion del ejercicio
+             * Created on: 25/10/2021
+             * Ejercicio 24.Construir un formulario para recoger un cuestionario realizado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a salir el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas
+             */
+        
+            echo '<h1><a href=".."><=</a>   PROYECTO TEMA 3 - EJERCICIO 24</h1>';
+
             //Incluir la libreria de validación de formularios
             include '../core/210322ValidacionFormularios.php';
         
